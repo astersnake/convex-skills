@@ -10,19 +10,19 @@ Works with Claude Code, Cursor, Codex, and 15+ other agents:
 
 ```bash
 # Install all skills
-npx add-skill geolize/convex-claude-plugin
+npx add-skill geolize/convex-skills
 
 # List available skills
-npx add-skill geolize/convex-claude-plugin --list
+npx add-skill geolize/convex-skills --list
 
 # Install specific skill
-npx add-skill geolize/convex-claude-plugin -s convex-core
+npx add-skill geolize/convex-skills -s convex-core
 
 # Install to a specific agent
-npx add-skill geolize/convex-claude-plugin -s convex-core -a claude-code
+npx add-skill geolize/convex-skills -s convex-core -a claude-code
 
 # Install globally
-npx add-skill geolize/convex-claude-plugin -g
+npx add-skill geolize/convex-skills -g
 ```
 
 ### Manual Installation
